@@ -24,7 +24,7 @@ Wavelet transform view of ECG contamination when muscles were relaxed
 
 
 # Results
-The results comprised a comparison between the original and filtered signals. The time domain and wavelet transforms were compared visually. Shown below are one set of results showing the original and filtered time domain and wavelet trasnforms.
+The results are a comparison between the original and filtered signals during periods of muscle contraction and relaxation. The time domain and wavelet transforms were compared visually. Shown below are one set of results showing the original and filtered time domain and wavelet trasnforms.
 
 Time Domain Signals
 ![abs1_sig](https://github.com/user-attachments/assets/62697659-8234-4ac5-845c-65613ee82422)
