@@ -16,6 +16,12 @@ EMG recordings from certain body areas, especially the trunk, are prone to conta
 
 For this project, data was recorded that would purposefully be contaminated with ECG, and then a method of removing ECG from EMG was designed. The new method combined ideas from the previous simple methods to filter more effectively while preserving more of the original signal. The algorithm programmatically found the QRS complexes in the wavelet transform, then the data was filtered using a basic voting system, which helped preserve the original signal.
 
+Time domain view of ECG contamination when muscles were relaxed
+![abs0_sig](https://github.com/user-attachments/assets/750c0539-08c8-467e-84c4-e234d398f46e)
+
+Wavelet transform view of ECG contamination when muscles were relaxed
+![abs0_cwt](https://github.com/user-attachments/assets/54922bed-aef1-4dcf-a32a-86b6edfec712)
+
 
 # Results
 The results comprised a comparison between the original and filtered signals. The time domain and wavelet transforms were compared visually. Shown below are one set of results showing the original and filtered time domain and wavelet trasnforms.
