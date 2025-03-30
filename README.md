@@ -31,3 +31,5 @@ The algorithm developed here did a good job of removing the ECG signal from the 
 
 The algorithm was very good at removing ECG content but had to be carefully tuned to avoid removing excessive amounts of EMG content. The main weakness of the algorithm is that it is not fully adaptable, meaning if data were recorded from a different individual, on a different muscle, or at a different sampling frequency, the algorithm's performance could vary. Further tests with a broader data set are required to generalize the algorithm. 
 
+# Notes
+The Wireless Data Acquisition (WDA) Project was used to record the EMG data. This project was completed during the development of the WDA project, so it offered a great opportunity to test the software being developed. 
