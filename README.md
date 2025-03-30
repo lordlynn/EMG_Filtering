@@ -21,11 +21,10 @@ For this project, data was recorded that would purposefully be contaminated with
 The results comprised a comparison between the original and filtered signals. The time domain and wavelet transforms were compared visually. Shown below are one set of results showing the original and filtered time domain and wavelet trasnforms.
 
 Time Domain Signals
-![abs1_cwt](https://github.com/user-attachments/assets/e3e8f2ba-ea38-41b9-a226-d3cf3ce5a9b6)
-
-Wavelet Transform
 ![abs1_sig](https://github.com/user-attachments/assets/62697659-8234-4ac5-845c-65613ee82422)
 
+Wavelet Transform
+![abs1_cwt](https://github.com/user-attachments/assets/e3e8f2ba-ea38-41b9-a226-d3cf3ce5a9b6)
 
 # Conclusions
 The algorithm developed here did a good job of removing the ECG signal from the baseline test, leaving only variations on the same order of magnitude as the 60Hz noise. In the other test, the algorithm performed similarly for QRS complexes that occurred during muscle relaxation. The performance during muscle activation was also fairly good. When EMG activation was detected during muscle contraction, the filtering height changed to preserve the EMG at cost of less ECG filtering.
