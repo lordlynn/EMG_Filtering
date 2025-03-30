@@ -1,4 +1,4 @@
-# RAVIR Dataset Challenge
+# ECG Filtering From EMG Data
 
 ## Overview
 This project details the creation of an algorithm designed in MATLAB to efficiently eliminate electrocardiogram (ECG) interference from electromyogram (EMG) signals. Data collection involved the use of Myoware2.0 EMG sensors paired with a Teensy4.1 microcontroller and the WizFi360 wireless module. The process included meticulous skin preparation and sensor placement before recording contaminated EMG data from the Rectus Abdominus. 
